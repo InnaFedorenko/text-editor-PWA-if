@@ -208,4 +208,12 @@ h1 {
   h1 {
     font-size: 18px;
   }
+  #installInstructions {
+    display: none
+ } 
+ @media (display-mode: browser) {
+    #installInstructions {
+      display: block
+    }
+ }
 }
